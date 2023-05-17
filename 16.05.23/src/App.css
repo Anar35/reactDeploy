@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(11, 50, 109);
+  padding: 20px 0;
+}
+nav{
+  width: 80%; 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#search-form{
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search-form i{
+  margin-left: 25px;
+}
+#search{
+  font-size: 24px;
+  padding: 10px 15px;
+  border: 0;
+  width: 270px;
+  border-radius: 10px;
+  outline: none;
+  border-radius: 10px 0 0  10px;
+}
+.search{
+  padding: 10px 20px;
+  border-radius: 10px ;
+  border: 1px solid rgb(11, 50, 109);
+  color: rgb(11, 50, 109);
+  background-color: transparent;
+  transition: .4s;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.search:hover{
+  background-color: rgb(11, 50, 109);
+  color: white;
+}
+
+.wishList{
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(11, 50, 109);
+  color: rgb(11, 50, 109);
+  background-color: white;
+  transition: .4s;
+  font-size: 16px;
+}
+.wishList:hover{
+  background-color: rgb(11, 50, 109);
+  color: white;
+  border-color: white ;
+}
+.spinner-border{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 20px;
+}
+.like{
+  height: 50px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
